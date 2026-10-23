@@ -14,7 +14,7 @@ h2{
     padding:20px;
     grid-area:nav;
     position:fixed;
-    width:27%;
+    width:25%;
     height:80%;
     overflow-y: auto;
     border-radius:20px;

@@ -73,4 +73,7 @@ a[class="chapter"]{
 a[class="chapter"]::before{
     content:"▶ ";
 }
+p{
+    text-indent: 50px;
+}
 

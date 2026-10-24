@@ -1,5 +1,5 @@
 # Salut mersi ca ai intrat pe repo ul meu
-## Sper ca esti de la mine din grupa de proiect, daca nu, aia e, poti sate uiti.
+## Sper ca esti de la mine din grupa de proiect, daca nu, aia e, poti sa te uiti.
 Practic am facut asta casa avem textul pentru prezentare intr un format mai brut, unde putem sa derulam in continuu, practic sa nu ma chinui sa fac slideuri pe care nu o sa le folosim.
 
 Imi dati mesaj daca vreti sa adaug ceva. 

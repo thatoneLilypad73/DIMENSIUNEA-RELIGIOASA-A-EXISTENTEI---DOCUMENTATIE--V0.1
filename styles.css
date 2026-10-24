@@ -84,7 +84,7 @@ figure{
     filter:drop-shadow(hsla(0, 0%, 0%, 0.5) 20px 20px 20px);
     border-radius:10px;
     margin:10px;
-    font-size:50%;
+    font-size:70%;
 }
 figcaption{
     background-color:rgb(23, 69, 107);

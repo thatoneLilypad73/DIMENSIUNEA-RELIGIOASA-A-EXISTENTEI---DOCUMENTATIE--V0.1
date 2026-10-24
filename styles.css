@@ -96,5 +96,8 @@ figcaption{
     width:auto;
     height:100px;
 }
+.image:hover{
+    border:3px solid white;
+}
 
 

@@ -26,7 +26,7 @@ li{
     margin-bottom:10px;
     margin-top:10px;
 }
-a{
+#navigation a{
     color:black;
     font-weight:500;
     padding: 8px 10px;
@@ -37,8 +37,8 @@ a[class="subchapter"]{
     margin-left:20px;
     text-decoration: none;
 }
-a:hover{
-    background-color:rgb(19, 19, 92);
+#navigation a:hover{
+    background-color:rgb(23, 69, 107);
 }
 body{
     display:grid;
@@ -76,4 +76,25 @@ a[class="chapter"]::before{
 p{
     text-indent: 50px;
 }
+figure{
+    background-color:rgb(70, 128, 175);
+    display: inline-block;
+    width: min-content;
+    padding:20px;
+    filter:drop-shadow(hsla(0, 0%, 0%, 0.5) 20px 20px 20px);
+    border-radius:10px;
+    margin:10px;
+    font-size:50%;
+}
+figcaption{
+    background-color:rgb(23, 69, 107);
+    color:white;
+    padding:10px;
+    border-radius:0 0 10px 10px ;
+}
+.image{
+    width:auto;
+    height:100px;
+}
+
 

@@ -117,5 +117,21 @@ figcaption{
     font-size:75%;
     margin-right:20px;
 }
-
+.button-container{
+    display:flex;
+    justify-content: right;
+    padding-right:20px;
+}
+button{
+    background-color:var(--dark);
+    padding:10px;
+    border-radius:10px;
+    border:black;
+}
+button:hover{
+    background-color:var(--mid);
+}
+button a{
+    color:var(--white);
+}
 

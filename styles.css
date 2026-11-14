@@ -134,5 +134,26 @@ button:hover{
 button a{
     color:var(--white);
 }
-
-
+figure{
+    background-color:var(--mid);
+    display: inline-block;
+    width: min-content;
+    padding:20px;
+    filter:drop-shadow(hsla(0, 0%, 0%, 0.5) 20px 20px 20px);
+    border-radius:10px;
+    margin:10px;
+    font-size:100%;
+}
+figcaption{
+    background-color:var(--dark);
+    color:white;
+    padding:10px;
+    border-radius:0 0 10px 10px ;
+}
+.image{
+    width:auto;
+    height:100px;
+}
+.image:hover{
+    border:3px solid white;
+}

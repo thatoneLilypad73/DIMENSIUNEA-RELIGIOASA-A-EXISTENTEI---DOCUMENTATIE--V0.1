@@ -1824,14 +1824,16 @@ Nu mi-a trimis, de cand ma rog, nici-unul...
                 </button>
             </div>
     </main>
+    <script>
+  // Selectează toate imaginile din pagină
+  document.querySelectorAll('img').forEach(img => {
+    // Adaugă evenimentul de click pe fiecare imagine
+    img.addEventListener('click', () => {
+      // Deschide sursa imaginii într-un tab nou
+      window.open(img.src, '_self');
+    });
+  });
+</script>
 </body>
 </html>
-<!--
-<div class="button-container">
-    <button>
-        <a href="" type="_self">
-            -▶
-        </a>
-    </button>
-</div>
--->
+

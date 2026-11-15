@@ -105,10 +105,6 @@ figcaption{
     padding:10px;
     border-radius:0 0 10px 10px ;
 }
-.image{
-    width:auto;
-    height:100px;
-}
 .image:hover{
     border:3px solid var(--white);
 }
@@ -121,6 +117,8 @@ figcaption{
     display:flex;
     justify-content: right;
     padding-right:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 button{
     background-color:var(--dark);
@@ -134,14 +132,20 @@ button:hover{
 button a{
     color:var(--white);
 }
+.image_container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
 figure{
     background-color:var(--mid);
-    display: inline-block;
+    display: flex;
+    flex-direction:column;
     width: min-content;
     padding:20px;
     filter:drop-shadow(hsla(0, 0%, 0%, 0.5) 20px 20px 20px);
     border-radius:10px;
-    margin:10px;
+    margin:15px;
     font-size:100%;
 }
 figcaption{
@@ -149,11 +153,18 @@ figcaption{
     color:white;
     padding:10px;
     border-radius:0 0 10px 10px ;
+    flex-grow:1;
+    display: flex;
+  justify-content: center;
+  align-items: center
 }
 .image{
     width:auto;
-    height:100px;
+    max-height:400px;
 }
 .image:hover{
     border:3px solid white;
+}
+#poza_mica{
+    width:300px;
 }
